@@ -27,12 +27,12 @@ function contact_close(event: Event) {
     <button style="float: left;"><h1>Mansarover</h1></button>
     <button on:click={contact_dialog.showModal()} style="float: right;" class="contact"><h1>Contact</h1></button>
 </div>
-<img class="halal_logo" src="/src/images/halal_logo.png" alt="mansarover logo">
+<img class="halal_logo" src="./halal_logo.png" alt="mansarover logo">
 
 <div class="menus">
     <h1>Menus</h1>
-    <img on:click={toggle_enlarge_menu} src="/src/images/mansarover_setlunch.jpg" alt="mansarover setlunch">
-    <img on:click={toggle_enlarge_menu} src="/src/images/mansarover_menu.jpg" alt="mansarover menu">
+    <img on:click={toggle_enlarge_menu} src="./mansarover_setlunch.jpg" alt="mansarover setlunch">
+    <img on:click={toggle_enlarge_menu} src="./mansarover_menu.jpg" alt="mansarover menu">
 </div>
 
 <dialog bind:this={enlarge_dialog} on:click={enlarge_close} id="enlarge_dialog">
