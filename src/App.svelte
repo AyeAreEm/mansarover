@@ -112,8 +112,9 @@ dialog[open] {
     animation: fade-in 150ms cubic-bezier(0, 0, 0.2, 1);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
     .menus img {
+        float: none;
         width: 80%;
         margin-left: 5%;
         margin-right: 5%;
