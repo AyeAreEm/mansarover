@@ -64,7 +64,7 @@ function contact_close(event: Event) {
     background: none;
     margin: 0;
     padding: 0;
-    /* height: 40px; */
+    color: white;
 }
 
 .halal_logo {
@@ -114,8 +114,7 @@ dialog[open] {
 
 @media (max-width: 320px) {
     .menus img {
-        width: 40%;
-        height: 50vh;
+        width: 80%;
         margin-left: 5%;
         margin-right: 5%;
     }
